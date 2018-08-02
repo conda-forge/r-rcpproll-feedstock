@@ -14,14 +14,16 @@ Summary: Provides fast and efficient routines for common rolling / windowed oper
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-rcpproll-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-rcpproll-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-rcpproll-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-rcpproll-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-rcpproll-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-rcpproll-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-rcpproll-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-rcpproll-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-rcpproll-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-rcpproll-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-rcpproll-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-rcpproll-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-rcpproll/badges/version.svg)](https://anaconda.org/conda-forge/r-rcpproll)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-rcpproll/badges/downloads.svg)](https://anaconda.org/conda-forge/r-rcpproll)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--rcpproll-green.svg)](https://anaconda.org/conda-forge/r-rcpproll) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-rcpproll.svg)](https://anaconda.org/conda-forge/r-rcpproll) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-rcpproll.svg)](https://anaconda.org/conda-forge/r-rcpproll) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-rcpproll.svg)](https://anaconda.org/conda-forge/r-rcpproll) |
 
 Installing r-rcpproll
 =====================
