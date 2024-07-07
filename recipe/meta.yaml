@@ -1,4 +1,4 @@
-{% set version = '0.3.0' %}
+{% set version = "0.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppRoll_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppRoll/RcppRoll_{{ version }}.tar.gz
-  sha256: cbff2096443a8a38a6f1dabf8c90b9e14a43d2196b412b5bfe5390393f743f6b
+  sha256: d2f5d978b6feb8510ec1a1a50ba0e8bf9002bb77bfad7d120f5b30b8f56036df
 
 build:
-  number: 1005
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -47,9 +47,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=RcppRoll
   license: GPL-2.0-or-later
-  summary: Provides fast and efficient routines for common rolling / windowed operations. Routines
-    for the efficient computation of windowed mean, median, sum, product, minimum, maximum,
-    standard deviation and variance are provided.
+  summary: Provides fast and efficient routines for common rolling / windowed operations. Routines for the efficient computation of windowed mean, median, sum, product, minimum, maximum, standard deviation and variance are provided.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
